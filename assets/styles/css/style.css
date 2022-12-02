@@ -1,0 +1,9 @@
+body {
+  background-color: blue;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  width: 1000vw;
+  height: 1000vh;
+}
+
+/*# sourceMappingURL=style.css.map */
