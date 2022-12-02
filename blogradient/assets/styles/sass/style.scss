@@ -3,19 +3,62 @@
 html {  
   font-size: 14px; 
   font-family: 'Montserrat', sans-serif;
-  
-}
-
-header {
-    background-color:purple;
-    color:white;
-    text-align:center;
 }
 
 body {
-    background: linear-gradient(purple, blue);
+    margin:0;
 }
 
-section {
-    background-color:white;
+main {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+h1 {
+    text-align:center;
+    color:white;
+}
+
+
+header {
+    background-color:#5c4d7d;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    section:first-of-type {
+        background: linear-gradient(#5c4d7d, #455e89, #2e6f95);
+    }
+}
+
+main {
+    section:last-of-type {
+        background: linear-gradient(#5c4d7d, #455e89, #2e6f95);
+    }
+}
+
+ul {
+    text-align:left;
+}
+
+li {
+    list-style-type:none;
+    color:white;
+}
+
+main {
+    section:first-of-type {
+        h2 {
+            text-align:center;
+        }
+    }
+}
+
+main {
+    section:last-of-type {
+        h2 {
+            color: white;
+        }
+    }
 }
